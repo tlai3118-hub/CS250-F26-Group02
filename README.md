@@ -6,3 +6,4 @@ GROUP CONTRACT:
 4. The work will be divided evenly according to each of the assignments, keeping track of progress with the help of logs. Deadlines and missed work for one or more of the members will be discussed by the rest of the members, taking serious measures within reason. Pablo Velasco will be in charge of the submissions.
 Terry Lai
 Ken Nguyen
+Pablo Velasco
