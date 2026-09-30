@@ -7,3 +7,4 @@ GROUP CONTRACT:
 Terry Lai
 Ken Nguyen
 Pablo Velasco
+Emiliano Garcia
