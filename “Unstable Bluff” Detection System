@@ -1,1 +1,11 @@
+Team Members
+Terry Lai
+Ken Nguyen 
+Pablo Velasco 
+Emiliano Garcia
 
+System Description
+The intent of the "Unstable Bluff" Detection System is to maintain surveillance on unstable bluffs in the Del Mar, California, area 
+and identify changes that may indicate a potential bluff collapse. The prototype system will use six stationary Wi-Fi-enabled cameras 
+to monitor a 300-foot area of bluff. Each camera will periodically capture images of a 50-foot section of the bluff and transmit the
+images to a central processing system. 
