@@ -3,9 +3,18 @@ Terry Lai
 Ken Nguyen 
 Pablo Velasco 
 Emiliano Garcia
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 System Description
-The intent of the "Unstable Bluff" Detection System is to maintain surveillance on unstable bluffs in the Del Mar, California, area 
+The intent of the "Unstable Bluff" Detection System is to monitor unstable bluffs in the Del Mar, California, area 
 and identify changes that may indicate a potential bluff collapse. The prototype system will use six stationary Wi-Fi-enabled cameras 
 to monitor a 300-foot area of bluff. Each camera will periodically capture images of a 50-foot section of the bluff and transmit the
-images to a central processing system. 
+images to a central processing system. The central processing system will store and compare images to detect changes in the bluff.
+Each change will be rated from zero to five depending on the amount of change. A rating of zero indicates no identifiable changes. Rating of 1 and 3
+are considered predictive of a significant slide. A rating of four denotes a significant shift, and additional assessment is needed right away
+to decide whether rail operations should be halted and people evacuated from the area. A rating of five indicates rail traffic should be stopped,
+immediately, and people evacuated from the area to avoid injury or death. In addition, the images indicate major changes should be compared to the last 
+image from that location to determine whether trains or people were in the area before the change occurred. When the rating is between 4 and 5, the system
+will generate an alert and send notifications to the rail operators and lifeguards.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Software Architecture Overview
+
