@@ -17,7 +17,9 @@ image from that location to determine whether trains or people were in the area 
 will generate an alert and send notifications to the rail operators and lifeguards.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Software Architecture Overview
-
+*View Unstable Bluff SWA Diagram in files*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Development plan and timeline
-We have partitioned tasks and responsibilities into Ken doing the summary, Terry and Ken doing the SWA diagram, and Pablo and Emiliano do the UML diagram.
+Tasks: UML diagram, SWA diagram, Title page, and System Description
+All tasks should be completed by October 1, 2026 10:00PM
+Pablo and Emiliano worked on the UML diagram, Terry and Ken worked on the SWA diagram, Ken worked on the title page and system description. 
