@@ -169,11 +169,16 @@ TEST_SET unit_image_processing
 
 
 System Test
-The system takes pictures of the unstable bluffs at Del Mar using the six cameras along the 300-foot stretch. Each camera captures an image of its 
-50-foot section every hour and sends it over the Wi-Fi network to the central site. Once the central site receives the new image, it is stored in 
-the database and compared with the previous image from the same camera to look for any changes in the bluff. If the two images are the same, the system 
-finds no change and gives a rating of zero. If the images show small differences, the system detects a small change and gives a rating between one and three.
-If the images show major differences, the system detects a major change and gives a rating of four or five. After the rating is decided, the system notifies 
-officials of the result; for ratings of four and five, it also alerts rail operators and lifeguards.
+The six cameras, which are positioned along the 300-foot stretch at Del Mar, take pictures of the unstable bluffs. 
+Each camera takes an image of its own 50-foot section once every hour and transmits it via the Wi-Fi network to the 
+main site. When the central site has received the new image, it is stored in the database and then compared with the 
+earlier image taken by the same camera to detect any changes in the bluff. If the two images are identical, 
+the system concludes that there has been no change and assigns it a rating of zero. If the images reveal only minor 
+differences, the system identifies this as a small change and gives it a rating between one and three. If the images 
+show major differences, the system detects this as a major change and awards it a rating of four or five. After the 
+rating has been determined, the system informs the officials of the result, and in the cases of ratings four and five, 
+it sends alerts to the rail operators and the lifeguards.
+
+
 
 
