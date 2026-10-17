@@ -114,6 +114,58 @@ ________________________________________________________________________________
 
 Pseudocode for Test set 2
 
+TEST_SET system_image_to_rating
+
+    TEST image_produces_rating_and_notification
+        input = camera image of the bluff
+        feed input into the system
+        ASSERT system determines a rating
+        ASSERT system notifies officials of the rating
+
+
+TEST_SET integration_camera_to_central_site
+
+    TEST camera_continuously_transmits_images
+        camera.start()
+        FOR i = 1 TO N_CAPTURES
+            WAIT capture_interval
+            ASSERT centralSite.receivedImageCount == i
+            ASSERT centralSite.lastImage is valid (not null, not corrupted)
+
+    TEST new_images_compared_for_changes
+        FOR EACH newImage RECEIVED by centralSite
+            previousImage = centralSite.getPreviousImage()
+            result = compareImages(newImage, previousImage)
+            ASSERT result is produced
+            ASSERT result is passed on for rating
+
+    TEST central_site_stores_image_data
+        FOR EACH newImage RECEIVED by centralSite
+            ASSERT centralSite.storage CONTAINS newImage
+        ASSERT centralSite.storage.count grows with each capture
+        // stored history is what later allows movement-prediction algorithms
+
+
+TEST_SET unit_image_processing
+
+    TEST scenario_1_identical_images
+        imageA = load(sample_image)
+        imageB = copy(imageA)
+        result = compareImages(imageA, imageB)
+        ASSERT result == NO_CHANGE
+
+    TEST scenario_2_small_differences
+        imageA = load(sample_image)
+        imageB = load(sample_image_with_small_differences)
+        result = compareImages(imageA, imageB)
+        ASSERT result == SMALL_CHANGE
+
+    TEST scenario_3_major_differences
+        imageA = load(sample_image)
+        imageB = load(sample_image_with_major_differences)
+        result = compareImages(imageA, imageB)
+        ASSERT result == MAJOR_CHANGE
+
 
 
 System Test
