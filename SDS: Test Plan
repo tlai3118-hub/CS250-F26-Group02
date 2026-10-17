@@ -51,6 +51,10 @@ Testing Set 2: Image Processing
 Purpose: To verify that the system correctly receives camera images, comapres them with previous images, and detects changes in the bluffs.
 
 Unit Testing: Test image processing individually to determine whether it correctly compares images. 
+Image Processing:
+Scenario 1: Two identical images = No changes
+Scenario 2: Two images with small differences = Small changes
+Scenario 3: Two images with major differences = Major changes
 
 Integration testing: Testing whether the camera continously captures images to transmit to the central site in order for it to get processed for a rating.
 
