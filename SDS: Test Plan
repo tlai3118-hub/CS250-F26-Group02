@@ -28,8 +28,25 @@ ________________________________________________________________________________
 
 Pseudocode 
 
+TEST_SET unit_risk_assessment          // partition-based
 
+    TEST risk_0_no_change
+        input  = image set showing no identifiable change
+        ASSERT assessRisk(input) == 0
 
+    TEST risk_1_to_3_significant_slide
+        FOR EACH input IN image sets representing minor to significant slide
+            ASSERT assessRisk(input) IN {1, 2, 3}
+
+    TEST risk_4_significant_change
+        input  = image set showing significant change
+        ASSERT assessRisk(input) == 4        // immediate evaluation may be required
+
+    TEST risk_5_major_change
+        input  = image set showing major changes
+        ASSERT assessRisk(input) == 5        // immediate stop and evacuation required
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 System Test
 
 The system views images of the unstable bluffs at Del Mar and checks for any noticeable deviations. 
