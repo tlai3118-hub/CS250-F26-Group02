@@ -32,6 +32,16 @@ Output: The system determines the level and whether to send an alert or not
 Input: Images representing a level from 4-5 changes
 Output: The system determines that it needs to send an emergency alert.  
 
+________________________________________________________________________________________________________________________________________________
+
+Pseudocode 
+
+Unit Test 
+
+Integration Test
+
+System Test
+
 
 
 
