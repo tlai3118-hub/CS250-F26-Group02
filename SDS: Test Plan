@@ -30,6 +30,11 @@ Output: The system determines that it needs to send an emergency alert.
 ________________________________________________________________________________________________________________________________________________
 
 Pseudocode 
+
+Integration Test
+
+System Test
+
 The system views images of the unstable bluffs at Del Mar and checks for any noticeable deviations. 
 While viewing images of the unstable bluffs, they will rate the deviation from zero to five. 
 A rating of zero indicates no identifiable change. A rating between one and three indicates a significant slide.
@@ -37,10 +42,6 @@ A rating of four indicates significant change and requires immediate evaluation.
 has occurred and requires a mandatory stop in rail traffic and people evacuate the area. With ratings four and five, alarms
 go off, and alerts are sent to rail operators and lifeguards.
 Unit Test 
-
-Integration Test
-
-System Test
 
 _________________________________________________________________________________________________________________________________________________
 
