@@ -12,7 +12,27 @@ ________________________________________________________________________________
 Verification Test Plan for Unstable Bluff Detection System
 
 Test Set 1: Risk Assessment (0-5)
+
 Purpose: To verify that the system correctly identifies the risk level of bluff changes from 0 to 5 and sends an alert when necessary. 
-Unit Test: 
+Test approach: Our test approach will be partition-based.
+
+Unit Testing: To determine whether the risk assessment component appropriately addresses each risk category, test it separately 
+Risk 0 = indicates no identifiable change
+Risk 1-3 = indicates signicant slide
+Risk 4 = indicates significant change; immediate evaluation may be required.
+Risk 5 = indicates major changes; immediate stop and evacuation required.
+
+Integration Testing: Verify that Risk assessment and the alert system are interacting correctly. 
+Risk 0-3 = no alert sent
+Risk 4-5 = Alert sent to rail operators and lifeguards for immediate evaluation. 
+
+System Testing: Test every aspect of the system, from the cameras taking pictures to the algorithm identifying danger and issuing a warning.
+Input: Images representing a level from 0- 3 changes.
+Output: The system determines the level and whether to send an alert or not
+Input: Images representing a level from 4-5 changes
+Output: The system determines that it needs to send an emergency alert.  
+
+
+
 
 
