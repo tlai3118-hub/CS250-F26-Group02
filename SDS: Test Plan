@@ -28,6 +28,41 @@ ________________________________________________________________________________
 
 Pseudocode for Test Set 1
 
+TEST_SET system_end_to_end
+
+    TEST low_change_images
+        input = images representing a level from 0-3 changes
+        run entire system (camera -> algorithm -> alert logic)
+        ASSERT system determines the correct level
+        ASSERT system decides whether to send an alert or not
+              // expected: no alert
+
+    TEST high_change_images
+        input = images representing a level from 4-5 changes
+        run entire system (camera -> algorithm -> alert logic)
+        ASSERT system determines it needs to send an emergency alert
+
+
+
+TEST_SET integration_risk_and_alert
+
+    TEST no_alert_for_risk_0_to_3
+        FOR level IN {0, 1, 2, 3}
+            riskAssessment.setLevel(level)
+            alertSystem.process(level)
+            ASSERT alertSent == false
+
+    TEST alert_for_risk_4_to_5
+        FOR level IN {4, 5}
+            riskAssessment.setLevel(level)
+            alertSystem.process(level)
+            ASSERT alertSent == true
+            ASSERT recipients CONTAINS railOperators
+            ASSERT recipients CONTAINS lifeguards
+
+
+
+
 TEST_SET unit_risk_assessment          // partition-based
 
     TEST risk_0_no_change
