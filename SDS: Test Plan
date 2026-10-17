@@ -1,11 +1,6 @@
 System Test
 
-The camera operator views images of the unstable bluffs at Del Mar and checks for any noticeable deviations. 
-While viewing images of the unstable bluffs, they will rate the deviation from zero to five. 
-A rating of zero indicates no identifiable change. A rating between one and three indicates a significant slide.
-A rating of four indicates significant change and requires immediate evaluation. A rating of five indicates that a major change 
-has occurred and requires a mandatory stop in rail traffic and people evacuate the area. With ratings four and five, alarms
-go off, and alerts are sent to rail operators and lifeguards.
+
 
 __________________________________________________________________________________________________________________________________________
 
@@ -35,7 +30,12 @@ Output: The system determines that it needs to send an emergency alert.
 ________________________________________________________________________________________________________________________________________________
 
 Pseudocode 
-
+The system views images of the unstable bluffs at Del Mar and checks for any noticeable deviations. 
+While viewing images of the unstable bluffs, they will rate the deviation from zero to five. 
+A rating of zero indicates no identifiable change. A rating between one and three indicates a significant slide.
+A rating of four indicates significant change and requires immediate evaluation. A rating of five indicates that a major change 
+has occurred and requires a mandatory stop in rail traffic and people evacuate the area. With ratings four and five, alarms
+go off, and alerts are sent to rail operators and lifeguards.
 Unit Test 
 
 Integration Test
@@ -44,7 +44,17 @@ System Test
 
 _________________________________________________________________________________________________________________________________________________
 
-Testing Set 2: 
+Testing Set 2: Image Processing
+
+Purpose: To verify that the system correctly receives camera images, comapres them with previous images, and detects changes in the bluffs.
+
+Unit Testing: Test image processing individually to determine whether it correctly compares images. 
+
+Integration testing: Testing whether the camera continously captures images to transmit to the central site in order for it to get processed for a rating.
+
+System Test: Capture images for it to go into the system to be reviewed for a rating.
+Input: System receieves image and determines rating.
+Output: System notifies officials of rating.
 
 
 
