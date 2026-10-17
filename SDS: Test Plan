@@ -56,13 +56,20 @@ Scenario 1: Two identical images = No changes
 Scenario 2: Two images with small differences = Small changes
 Scenario 3: Two images with major differences = Major changes
 
-Integration testing: Testing whether the camera continously captures images to transmit to the central site in order for it to get processed for a rating.
+Integration testing: Testing whether the camera continously captures images to transmit to the central site in order for it to get processed for a rating. New images will be constantly compared for any changes within the bluff. The central site also holds a large amount of data so algorithims can be made to predict the movement of the bluffs as well.
 
 System Test: Capture images for it to go into the system to be reviewed for a rating.
 Input: System receieves image and determines rating.
 Output: System notifies officials of rating.
+_________________________________________________________________________________________________________________________________________________
 
+Pseudocode 
 
+Unit Test
+
+Integration Test
+
+System Test
 
 
 
