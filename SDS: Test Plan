@@ -11,7 +11,8 @@ ________________________________________________________________________________
 
 Verification Test Plan for Unstable Bluff Detection System
 
-Test Set 1: Risk Assessment
+Test Set 1: Risk Assessment (0-5)
+Purpose: To verify that the system correctly identifies the risk level of bluff changes from 0 to 5 and sends an alert when necessary. 
 Unit Test: 
 
 
