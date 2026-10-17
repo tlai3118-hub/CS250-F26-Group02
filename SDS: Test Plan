@@ -60,7 +60,7 @@ ________________________________________________________________________________
 
 Testing Set 2: Image Processing
 
-Purpose: To verify that the system correctly receives camera images, comapres them with previous images, and detects changes in the bluffs.
+Purpose: To verify that the system correctly receives camera images, compares them with previous images, and detects changes in the bluffs.
 
 Unit Testing: Test image processing individually to determine whether it correctly compares images. 
 Image Processing:
@@ -68,20 +68,18 @@ Scenario 1: Two identical images = No changes
 Scenario 2: Two images with small differences = Small changes
 Scenario 3: Two images with major differences = Major changes
 
-Integration testing: Testing whether the camera continously captures images to transmit to the central site in order for it to get processed for a rating. 
+Integration testing: Testing whether the camera continuously captures images to transmit to the central site in order for it to get processed for a rating. 
 New images will be constantly compared for any changes within the bluff. 
-The central site also holds a large amount of data so algorithims can be made to predict the movement of the bluffs as well.
+The central site also holds a large amount of data, so algorithms can be made to predict the movement of the bluffs as well.
 
 System Test: Capture images for it to go into the system to be reviewed for a rating.
-Input: System receieves image and determines rating.
+Input: System receives image and determines rating.
 Output: System notifies officials of rating.
 _________________________________________________________________________________________________________________________________________________
 
-Pseudocode 
+Pseudocode for Test set 2
 
-Unit Test
 
-Integration Test
 
 System Test
 
