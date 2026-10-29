@@ -1,0 +1,197 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="28WPvTE6aEtZrqB6ax22">
+    <mxGraphModel dx="1414" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rPz_L5BecyfUm79CmUR7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;verticalAlign=top;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;6 Cameras&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="220" x="160" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="-1080" as="sourcePoint" />
+            <mxPoint x="1120" y="-1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="-670" />
+            </Array>
+            <mxPoint x="10" y="-10" as="sourcePoint" />
+            <mxPoint x="10" y="-1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="10-Megapixel&lt;div&gt;Wi-Fi Enabled Camera&lt;/div&gt;&lt;div&gt;(Night Vision)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-9" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="-860" as="sourcePoint" />
+            <mxPoint x="270" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" value="Wi-Fi&amp;nbsp;&lt;div&gt;(Router)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-910" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Real Time images" vertex="1">
+          <mxGeometry height="30" width="60" x="285" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-14" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="-960" />
+            </Array>
+            <mxPoint x="380" y="-960" as="sourcePoint" />
+            <mxPoint x="500" y="-960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Third Party&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Cellular Network&lt;div&gt;(Amtrak)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="510" y="-1010" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-16" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rPz_L5BecyfUm79CmUR7-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="-680" as="sourcePoint" />
+            <mxPoint x="270" y="-780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Camera Controller&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Manages Cameras and control commands&lt;/div&gt;&lt;div&gt;(images settings, inverval)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="160" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Management Strategy&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Use one SQL database for structured information.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Store actual images in separate image storage&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Keep hourly images for one month.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Keep one image per day for older images, up to one year&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Delete images that exceed the retention period&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="280" x="750" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="269.5" y="-680" as="sourcePoint" />
+            <mxPoint x="269.5" y="-620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Image Processing&amp;nbsp;&lt;/font&gt;&lt;div&gt;Compare Images and detects changes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="165" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Send images for processing" vertex="1">
+          <mxGeometry height="30" width="95" x="160" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-28" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;SQL Database&lt;/font&gt;&lt;div&gt;&lt;font&gt;(stores structured data)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Camera information&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Image metadata&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Risk assessment result&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Alert records&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="195" x="510" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-29" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-25" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" target="rPz_L5BecyfUm79CmUR7-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="-620" as="sourcePoint" />
+            <mxPoint x="480" y="-585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Store image metadata" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-32" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;fillColor=#ffcccc;strokeColor=#36393d;" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Image Storage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;(stores actual images)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hourly images for 1 month&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;One image per day for older images up to&amp;nbsp; year&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="195" x="510" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="rPz_L5BecyfUm79CmUR7-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="607" y="-500" as="sourcePoint" />
+            <mxPoint x="607.5" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="References&lt;div&gt;images files&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="620" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-37" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-32" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="rPz_L5BecyfUm79CmUR7-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="-320" />
+              <mxPoint x="470" y="-550" />
+            </Array>
+            <mxPoint x="445" y="-320" as="sourcePoint" />
+            <mxPoint x="440" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Retrieve previous images&lt;div&gt;(for comparison)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="95" x="375" y="-540" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Risk Assessment(0-5)&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Determines amount of change&lt;/div&gt;&lt;div&gt;(thresholds)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="165" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="rPz_L5BecyfUm79CmUR7-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="269.5" y="-525" />
+            </Array>
+            <mxPoint x="269.5" y="-555" as="sourcePoint" />
+            <mxPoint x="269.5" y="-495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Send results&lt;div&gt;(risk level)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="82.5" x="165" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-46" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Risk Assessment Level 4&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Evaluation required if rail traffic should be stopped and people evacuated&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="60" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-48" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Risk Assessment Level 5&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Immediate stop of rail traffic and evacuation to avoid injury or death. Compare to last image to check if trains or people were in the area&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="285" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-49" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-41" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.571;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" target="rPz_L5BecyfUm79CmUR7-46" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-390" />
+            </Array>
+            <mxPoint x="350" y="-390" as="sourcePoint" />
+            <mxPoint x="510" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-50" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-41" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.867;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="rPz_L5BecyfUm79CmUR7-48" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="-390" />
+            </Array>
+            <mxPoint x="278" y="-390" as="sourcePoint" />
+            <mxPoint x="270" y="-337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Lv 4&amp;nbsp;&lt;div&gt;(some significant change)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="105" x="40" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Lv 5&amp;nbsp;&lt;div&gt;(major changes)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="105" x="360" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Rail Operators and Lifeguards&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Receive alerts and immediate take action&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="110" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-58" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-48" style="endArrow=classic;html=1;rounded=0;exitX=0.382;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="-160" as="sourcePoint" />
+            <mxPoint x="350" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-59" edge="1" parent="1" source="rPz_L5BecyfUm79CmUR7-46" style="endArrow=classic;html=1;rounded=0;exitX=0.565;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.153;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" target="rPz_L5BecyfUm79CmUR7-54" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="-160" as="sourcePoint" />
+            <mxPoint x="150" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Alerts 4 and 5" vertex="1">
+          <mxGeometry height="30" width="82.5" x="210" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="-530" />
+            </Array>
+            <mxPoint x="1110" as="sourcePoint" />
+            <mxPoint x="1110" y="-1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-62" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" as="sourcePoint" />
+            <mxPoint x="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPz_L5BecyfUm79CmUR7-63" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=#ffcd28;align=center;verticalAlign=middle;rounded=0;strokeColor=#d79b00;gradientColor=#ffa500;" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Central Site&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="780" y="-1060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
