@@ -4,3 +4,26 @@ camera information include camera IDs, locations, and settings. Image data would
 operators and lifeguards if the scale reaches 4 or 5. We have considered condensing everything into one single SQL database, however that would make backups and maintenance more expensive. We have also thought about having 
 databases for each camera, but that would make everything more difficult since the sample size of six cameras is just too small. The tradeoff between our choice and alternatives was that our choice was very simplistic to
 allow it to be easily understandable, the performance will also be good since we do not have that many databases, and we are scalable because of how our databases are simplisitic and not condensed.
+
+Modifications from the Initial Design (Assignment 2)
+In Assignment 2, our diagram showed one generic "Database" box connected to Image Processing and Risk Assessment. In Design 2.0, we split it into a SQL database for structured data and a separate image storage system for the 
+image files, with SQL records pointing to the files. We also added a data retention policy, a "retrieve previous images" path so new images can be compared against old ones, and more detail on each component: camera specs 
+(10-megapixel, Wi-Fi, night vision), Camera Controller duties (image settings and capture interval), the Amtrak cellular network as the third party, and a description of the response required for risk levels 4 and 5.
+
+Data Organization
+We plan to use PostgreSQL for the SQL database and a file server or cloud storage for the images. The database has four tables:
+- Camera: camera ID, location, settings, capture interval
+- Image: image ID, camera ID, timestamp, file path to the stored image
+- Risk Assessment: assessment ID, image ID, previous image ID, risk level (0-5)
+- Alert: alert ID, assessment ID, level (4 or 5), recipients, time sent
+The images themselves are never stored in SQL. The database only stores the file path.
+
+Data Retention and Protection
+Hourly images are kept for one month. After that, one image per day is kept for up to one year, and anything older is deleted. Images connected to a level 4 or 5 event are kept permanently as evidence. Only the central site's 
+services can write data, and operators get read-only access. Data is encrypted when sent from the cameras and when stored. The SQL database is backed up daily, and the image storage is backed up separately, which keeps database b
+ackups small and fast.
+
+Other Alternatives and Tradeoffs
+We also considered a NoSQL database such as MongoDB, which has a flexible structure and scales easily. However, our data is highly connected (cameras, images, assessments, and alerts all link to each other) and its structure will 
+not change, so SQL is a better fit. We also considered keeping all images forever, but storage costs would grow without limit. The main downside of our design is that we manage two systems instead of one, and we have to keep the 
+file paths in SQL in sync with the actual image files. We decided that is worth it for faster queries, cheaper backups, and easier scaling.
