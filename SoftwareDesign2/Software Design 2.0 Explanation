@@ -1,1 +1,6 @@
-
+We have decided to use one SQL database and an image storage system. The reason why we chose this design is because our system requires two different types of data, the structured information and the actual camera images.
+The SQL stores camera information, image data, risk assessments, and alerts. The image storage system stores all the images captured within a certain time frame. The way we split the data logically was by having the
+camera information include camera IDs, locations, and settings. Image data would include timestamps and reference the actual images on file. Risk assessment detects changes of the bluff on a scale of 0-5 and alerts
+operators and lifeguards if the scale reaches 4 or 5. We have considered condensing everything into one single SQL database, however that would make backups and maintenance more expensive. We have also thought about having 
+databases for each camera, but that would make everything more difficult since the sample size of six cameras is just too small. The tradeoff between our choice and alternatives was that our choice was very simplistic to
+allow it to be easily understandable, the performance will also be good since we do not have that many databases, and we are scalable because of how our databases are simplisitic and not condensed. 
